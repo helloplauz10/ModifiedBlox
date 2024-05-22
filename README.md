@@ -5,7 +5,7 @@ A Command Line Tool and an unofficial [Bloxstrap](https://github.com/pizzaboxer/
 Credits to [Proton0](https://github.com/Proton0/Roblox-Configurator) for letting me use his functions in this project
 
 # Screenshot
-![](https://github.com/helloplauz10/RedefineRoblox/assets/105611677/24f20b19-7c08-47f7-93c9-4c75cc7f15ef)
+![](https://raw.githubusercontent.com/helloplauz10/RedefineRoblox/main/Screen%20Shot%202024-05-21%20at%209.22.43%20AM.png)
 
 # FFlags (21 Graphics Slider, Remove FPS Cap, etc)
 ![Go here](FFlags.md)

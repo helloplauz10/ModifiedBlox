@@ -23,10 +23,14 @@ Clone this Respository and run installrr.py
 ```bash
 $ git clone https://github.com/helloplauz10/RedefineRoblox
 $ cd RedefineRoblox
-$ python3 RedefineRoblox
+$ python3 installrr.py
 ```
 This will automatically install the requirements needed and put RedefineRoblox at an executable path (~/RedefineRoblox/execs/)
 
+# How to change your Graphics API (FFlag Based)
+```bash
+$ redefiner --changegraphics Metal/Vulkan/OpenGL
+```
 # How to manage Fast Flags (21 Graphics Slider, Remove FPS Cap, etc)
-![Go here](FFlags.md)
+[Go here](FFlags.md)
 

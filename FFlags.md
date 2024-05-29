@@ -4,11 +4,11 @@ Also known as Fast Flag. This feature is for debugging but users can do somethin
 ## How to write, delete, or get the value a Fast Flag
 ```bash
 # Write
-$ redefiner fflags write FFLAG VALUE
+$ redefiner --fflags --write FFLAG VALUE
 # Delete
-$ redefiner fflags delete FFLAG
+$ redefiner --fflags --delete FFLAG
 # Get Value
-$ redefiner fflags get FFLAG
+$ redefiner --fflags --get FFLAG
 ```
 
 ## Unlock FPS cap (Just inputs big numbers and doesnt remove the FPS Cap)
@@ -16,7 +16,7 @@ $ redefiner fflags get FFLAG
 {"DFIntTaskSchedulerTargetFps": 999999}
 ```
 ```bash
-$ redefiner fflags write DFIntTaskSchedulerTargetFps 999999
+$ redefiner --fflags --write DFIntTaskSchedulerTargetFps 999999
 ```
 
 ## Increase Graphics Slider
@@ -24,8 +24,8 @@ $ redefiner fflags write DFIntTaskSchedulerTargetFps 999999
 {"FFlagFixGraphicsQuality": true, "FFlagCommitToGraphicsQualityFix": true}
 ```
 ```bash
-$ redefiner fflags write FFlagFixGraphicsQuality True
-$ redefiner fflags write FFlagCommitToGraphicsQualityFix True
+$ redefiner --fflags --write FFlagFixGraphicsQuality True
+$ redefiner --fflags --write FFlagCommitToGraphicsQualityFix True
 ```
 
 ## Configurate Lights (Future, Voxel / Phase 3)
@@ -34,8 +34,8 @@ $ redefiner fflags write FFlagCommitToGraphicsQualityFix True
 {"FFlagDebugRenderForceTechnologyVoxel": true} # Voxel / Phase 3
 ```
 ```bash
-$ redefiner fflags write FFlagDebugForceFutureIsBrightPhase3 True # For Future
-$ redefiner fflags write FFlagDebugRenderForceTechnologyVoxel True # For Voxel
+$ redefiner --fflags --write FFlagDebugForceFutureIsBrightPhase3 True # For Future
+$ redefiner --fflags --write FFlagDebugRenderForceTechnologyVoxel True # For Voxel
 ```
 
 ## Configurate Textures
@@ -45,9 +45,9 @@ $ redefiner fflags write FFlagDebugRenderForceTechnologyVoxel True # For Voxel
 ```
 ```bash
 # For Old texture
-$ redefiner fflags write FStringPartTexturePackTablePre2022 True
-$ redefiner fflags write FStringPartTexturePackTable2022 False
+$ redefiner --fflags --write FStringPartTexturePackTablePre2022 True
+$ redefiner --fflags --write FStringPartTexturePackTable2022 False
 # For new texture
-$ redefiner fflags write FStringPartTexturePackTable2022 True
-$ redefiner fflags write FStringPartTexturePackTablePre2022 False
+$ redefiner --fflags --write FStringPartTexturePackTable2022 True
+$ redefiner --fflags --write FStringPartTexturePackTablePre2022 False
 ```

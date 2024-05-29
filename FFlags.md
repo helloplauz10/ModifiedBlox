@@ -51,19 +51,3 @@ $ redefiner fflags write FStringPartTexturePackTable2022 False
 $ redefiner fflags write FStringPartTexturePackTable2022 True
 $ redefiner fflags write FStringPartTexturePackTablePre2022 False
 ```
-
-## Change Graphics API
-To revert back to Metal (Apple), disable OpenGL then set "FFlagDebugGraphicsDisableMetal" to false
-```json
-{"FFlagDebugGraphicsDisableMetal": true, "FFlagDebugGraphicsPreferVulkan": true} # For Vulkan
-{"FFlagDebugGraphicsDisableMetal": true, "FFlagDebugGraphicsPreferOpenGL": true} # For OpenGL
-```
-```bash
-# For Vulkan
-$ redefiner fflags write FFlagDebugGraphicsDisableMetal True
-$ redefiner fflags write FFlagDebugGraphicsPreferVulkan True
-# For OpenGL
-$ redefiner fflags write FFlagDebugGraphicsDisableMetal True
-$ redefiner fflags write FFlagDebugGraphicsDisableOpenGL True
-```
-

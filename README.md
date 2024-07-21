@@ -1,7 +1,7 @@
 # ![](https://pixels.crd.co/assets/images/gallery29/b8b5b6f3.gif?v=2942f085) ModifiedBlox (MacOS) ![](https://pixels.crd.co/assets/images/gallery29/b8b5b6f3.gif?v=2942f085)
 A Python-based program app used for modifying and using Roblox deeply.
 
-This project is a **MacOS** alternative to [Bloxstrap](https://github.com/pizzabloxer/bloxstrap) but instead this program uses ncurses and is only accessible using a Terminal app
+This project is a **MacOS** alternative to [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) but instead this program uses ncurses and is only accessible using a Terminal app
 
 # Working on:
 * Modify Fast Flags ✅

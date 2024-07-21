@@ -1,10 +1,7 @@
-# ![](https://pixels.crd.co/assets/images/gallery29/b8b5b6f3.gif?v=2942f085) RedefineRoblox ![](https://pixels.crd.co/assets/images/gallery29/b8b5b6f3.gif?v=2942f085)
-A CLI Tool used to replace Roblox's stock bootstrapper and aims to modify or **redefine** Roblox's appearance.
+# ![](https://pixels.crd.co/assets/images/gallery29/b8b5b6f3.gif?v=2942f085) ModifiedBlox (MacOS) ![](https://pixels.crd.co/assets/images/gallery29/b8b5b6f3.gif?v=2942f085)
+A Python-based program app used for modifying and using Roblox deeply.
 
-This project is a **MacOS** alternative to [Bloxstrap](https://github.com/pizzabloxer/bloxstrap)
-
-# A DEMO OF REDEFINE ROBLOX. STILL NOT RELEASED
-![](https://raw.githubusercontent.com/helloplauz10/RedefineRoblox/main/screenshots/Screen%20Shot%202024-07-18%20at%207.23.30%20PM.png)
+This project is a **MacOS** alternative to [Bloxstrap](https://github.com/pizzabloxer/bloxstrap) but instead this program uses ncurses and is only accessible using a Terminal app
 
 # Working on:
 * Modify Fast Flags ✅

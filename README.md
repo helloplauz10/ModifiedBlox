@@ -13,3 +13,14 @@ This project is a **MacOS** alternative to [Bloxstrap](https://github.com/pizzab
 * Fast Flags and Modified Textures retain after updating ✅
 
 
+# Pulling an issue
+Only pull an issue **thats related to ModifiedBlox.**
+Issue about FPS capping or Fast Flags will be **closed immediately**
+
+Get help to others with knowledge to Fast Flags, you can go to [Bloxstrap's Discord Server]((https://discord.gg/nKjV3mGq6R) and go to the fflags channel.
+
+# Downloading (not released yet)
+After release, you can download it via pip.
+
+This project will be only available to MacOS, attempt to download it on other platforms will error the program itself.
+

@@ -7,20 +7,27 @@ modifiedb [command] [args]
 # Joining a game
 Joins a specific game. To be more specific, add job id if needed.
 ```
-modifiedb join [placeid] [jobid optional]
+modifiedb join [placeid] [--jobid JOBID]
 ```
 * placeid: the place id to join, it will raise ValueError if you input a string value (int)
 * jobid: the job id of a public place id to join, (str, UUID)
+
+# Rejoining a game
+Rejoins the **lastest** game you've played.
+```
+modifiedb rejoin
+```
 
 # Fast Flags
 Write, create, or get a Fast Flag.
 Find fast flags at [Bloxstrap's Discord Server](https://discord.gg/nKjV3mGq6R)
 ```
-modifiedb fflags [write/get] [fflag] [value (for write)]
+modifiedb fflags [write/get/remove/list] [fflag] [value (for write)]
 ```
-* write: write or create a fast flag
-* get: get the value of a fast flag
-
+* write: write or create a Fast Flag
+* get: get the value of a Fast Flag
+* list: list all Fast Flags created
+  
 ## Writing a Fast Flag
 ```
 modifiedb fflags write [fflag] [value]
@@ -35,10 +42,16 @@ modifiedb fflags get [fflag]
 ```
 * fflag: fast flag to get the value
 
+## Listing all Fast Flags
+It will print every Fast Flags created per line
+```
+modifiedb fflags list
+```
+
 # Settings
 Modify ModifiedBlox by modifying a setting.
 ```
-modifiedb settings [modify/get] [setting] [value (for write)]
+modifiedb settings [modify/get/list] [setting] [value (for write)]
 ```
 
 Here are the list of settings:
@@ -71,6 +84,12 @@ modifiedb settings get [setting]
 ```
 * setting: setting to get
 
+## Listing every settings that can be modified
+It will print the list of settings per line
+```
+modifiedb settings list
+```
+
 # Modifications
 For short "mod". Give Roblox a new look with mods.
 Find mods at [Bloxstrap's Discord Server](https://discord.gg/nKjV3mGq6R)
@@ -81,8 +100,15 @@ Mods are located at:
 ```
 
 ```
-modifiedb mods [list/use] [mod (for use)]
+modifiedb mods [use/list/openmods] [mod (for use)]
 ```
+
+
+## Using a mod
+```
+modifiedb mods use [mod]
+```
+* mod: the **name** of the mod's folder, raises FileNotFoundError whenever the folder doesnt exist
 
 ## Listing the mods installed
 Prints out the mods you installed.
@@ -90,16 +116,10 @@ Prints out the mods you installed.
 modifiedb mods list
 ```
 
-## Using a mod
-An alternative command to:
+## Opening the mod's folder
 ```
-modifiedb settings modify preferredMod [mod]
+modifiedb mods openmods
 ```
-
-```
-modifiedb mods use [mod]
-```
-* mod: the **name** of the mod's folder, raises FileNotFoundError whenever the folder doesnt exist
 
 # Updating Roblox
 Update Roblox to the latest version. Fast Flags and mods retain after.

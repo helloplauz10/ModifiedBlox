@@ -4,6 +4,11 @@ You need a Terminal app to use it or a custom one. You can use the default Termi
 modifiedb [command] [args]
 ```
 
+# Installing the Bootstrapper
+```
+modifiedb install
+```
+
 # Joining a game
 Joins a specific game. To be more specific, add job id if needed.
 ```
@@ -16,6 +21,12 @@ modifiedb join [placeid] [--jobid JOBID]
 Rejoins the **lastest** game you've played.
 ```
 modifiedb rejoin
+```
+
+# Leaving a game
+Leaves the game.
+```
+modifiedb leave
 ```
 
 # Fast Flags
@@ -49,7 +60,7 @@ modifiedb fflags list
 ```
 
 # Settings
-Modify ModifiedBlox by modifying a setting.
+Modify ModifiedBlox by modifying a setting. (Requires the bootstrapper to be installed)
 ```
 modifiedb settings [modify/get/list] [setting] [value (for write)]
 ```
@@ -91,7 +102,7 @@ modifiedb settings list
 ```
 
 # Modifications
-For short "mod". Give Roblox a new look with mods.
+For short "mod". Give Roblox a new look with mods. (Requires the bootstrapper to be installed)
 Find mods at [Bloxstrap's Discord Server](https://discord.gg/nKjV3mGq6R)
 
 Mods are located at:

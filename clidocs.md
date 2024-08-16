@@ -128,3 +128,13 @@ modifiedb mods apply [modname]
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `modname` | `string` | **Required**. The name of the folder of the mod |
+
+## List Mods inside the folder of Mods
+```bash
+modifiedb mods list
+```
+
+## Open the folder of Mods
+```bash
+modifiedb mods openmods
+```

@@ -47,12 +47,13 @@ modifiedb roblox latestver [--channel optional]
 ### Update Roblox
 Update Roblox to the latest version
 ```bash
-modifiedb roblox update [--channel optional] [--cdn optional]
+modifiedb roblox update [--channel optional] [--cdn optional] [--logfile optional]
 ```
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `channel` | `string` | The channel to use |
 | `cdn` | `string` | The CDN to use for updating |
+| `logfile` | `string` | The log file to use for the update's log |
 
 ## Roblox Fast Flags
 ```bash
